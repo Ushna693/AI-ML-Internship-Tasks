@@ -47,3 +47,23 @@ The model achieved an MAE of approximately 3.05, meaning the predictions were on
 
 ### Final Insight:
 The model performs reasonably well for short-term prediction, but stock markets are highly volatile, so more advanced models may improve accuracy.
+
+## Task 3: Heart Disease Prediction
+
+### Objective
+Predict whether a person is at risk of heart disease using medical data.
+
+### Dataset Used:
+Heart Disease UCI Dataset (Kaggle)
+
+### Steps Performed:
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Logistic Regression model training
+* Evaluation using Accuracy, Confusion Matrix, and ROC-AUC
+* Feature importance analysis
+
+### Results:
+* The dataset was balanced (526 positive and 499 negative cases).
+* Logistic Regression achieved good accuracy.
+* Features such as chest pain type, cholesterol, and maximum heart rate significantly affected prediction.
