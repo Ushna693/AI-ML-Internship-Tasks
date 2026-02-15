@@ -1,4 +1,4 @@
-# AI-ML-Internship-Tasks
+# AI/ML-Internship-Tasks
 
 This repository contains all tasks completed during my Machine Learning and Artificial Intelligence Internship.
 
