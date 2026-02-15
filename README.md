@@ -2,40 +2,56 @@
 
 This repository contains all tasks completed during my Machine Learning and Artificial Intelligence Internship.
 
----
+## Task 1: Iris Dataset Analysis
+
+### Objective:
+The goal of this task is to explore and visualize the Iris dataset to understand feature relationships and distributions.
+
+### Dataset Used:
+Iris dataset (loaded using seaborn)
+
+### Steps Performed:
+
+Loaded dataset using pandas
+
+Checked shape, columns, and summary statistics
+
+Created scatter plots to see relationships
+
+Used histograms to see data distribution
+
+Used boxplots to detect outliers
+
+### Key Findings:
+
+Petal length and petal width show strong relationship
+
+Data is well distributed with few outliers
+
+Species are clearly separable using petal features
 
 ## Task 2: Stock Price Prediction
 
-### Objective
-To predict the next day's closing stock price using historical stock data.
+### Objective:
+The goal of this task is to predict the next day's closing stock price using historical data.
 
-### Dataset Used
-Historical stock data retrieved using the yfinance Python library.
+### Dataset Used:
+Apple stock data retrieved using yfinance
 
-### Steps Performed
-- Data collection
-- Data preprocessing
-- Feature selection
-- Data visualization
-- Model training
-- Model evaluation
+### Features Used:
+Open, High, Low, Volume
 
-### Model Used
-- Linear Regression
+### Target Variable:
+Next day Close price
 
-### Evaluation Metric
-- Mean Absolute Error (MAE): 3.05
+### Model Used:
+Linear Regression
 
-### Key Insights
-- The model performs reasonably well for short-term prediction.
-- Stock prices show strong correlation between Open, High, Low, and Close values.
-- 
-## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+### Evaluation Metric:
+Mean Absolute Error (MAE)
 
-## 📂 Repository Structure
+### Results:
+The model achieved an MAE of approximately 3.05, meaning the predictions were on average 3 dollars away from the actual closing price.
+
+### Final Insight:
+The model performs reasonably well for short-term prediction, but stock markets are highly volatile, so more advanced models may improve accuracy.
